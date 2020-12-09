@@ -51,6 +51,9 @@ function start(e) {
 function draw({clientX: x, clientY: y}) {
     if (!isDrawing) return;
     
+    //-----Changing the color of the "actual color circle"
+    colors_backgroundColor.style.background = color_picker.value
+
     ctx.lineWidth = stroke_weight.value
     ctx.lineCap = 'round'
     ctx.strokeStyle = color_picker.value

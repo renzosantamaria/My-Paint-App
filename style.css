@@ -41,7 +41,8 @@ input{
 .colors{
     height: 36px;
     width: 36px;
-    background: pink;
+    border: 2px solid white;
+    background: black;
     border-radius: 70%;
 }
 
