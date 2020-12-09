@@ -10,7 +10,7 @@ const color_picker = document.querySelector('.color-picker')
 const blue_color = document.querySelector('.blue')
 const red_color = document.querySelector('.red')
 const colors_backgroundColor = document.querySelector('.colors')
-colors_backgroundColor.style.background =color_picker.value
+// colors_backgroundColor.style.background =color_picker.value
 blue_color.addEventListener('click', function(){
     // console.log("estoy en el boton azul")
     // console.log(blue_color.className)
