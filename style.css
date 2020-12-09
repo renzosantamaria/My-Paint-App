@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    background: rgb(34, 34, 34);
+}
+
+.main-menu{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+section{
+    display: block;
+    margin: 15px auto;
+
+}
+
+
+input{
+    text-align: center;
+}
+
+.clear{
+    width: 30px;
+    margin: 15px auto;
+}
+
+.colors{
+    height: 36px;
+    width: 36px;
+    background: pink;
+    border-radius: 70%;
+}
+
+.color-picker{
+    /* display: none; */
+    height: 30px;
+    margin-left: 52px;
+    background:  rgb(34, 34, 34);
+    color: white;
+    /* padding-right: 10px; */
+
+    /* width: 200px;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%); */
+}
+
+.red, .blue{
+    height: 36px;
+    width: 36px;
+    /* background-color: red; */
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+
+.picker-container{
+    display: none;
+}
+
+.color-container:hover .picker-container{
+    display: inline-flex;
+}
+
+.picker-container:hover{
+    display: inline-flex;
+}
+
+.stroke-weight{
+    width: 30px;
+}
